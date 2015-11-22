@@ -1,0 +1,23 @@
+{
+  "name": "voice-color-changer",
+  "version": "1.0.0",
+  "description": "Sample project to showcase webkit speech recognition API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --harmony",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Mitchell <posgarou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "concise.css": "^3.1.1",
+    "css-loader": "^0.23.0",
+    "html-webpack-plugin": "^1.6.2",
+    "lodash": "^3.10.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.8"
+  }
+}
